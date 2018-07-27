@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-simple-express-example",
+  "version": "1.0.0",
+  "description": "Simple RESTful web service implemented with nodejs and express",
+  "main": "app.js",
+  "scripts": {
+    "startup": "tsc & node dist/app.js"
+  },
+  "author": "Stefan Rehder",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^10.5.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "typescript": "^2.9.2"
+  }
+}
